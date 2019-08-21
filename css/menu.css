@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Rubik&display=swap');
+body {
+    max-width: 980px;
+    margin:auto;
+    background-color: rgb(66, 66, 66);
+}
+header .logo {
+    font-family: 'Lora', serif;
+    font-size:3rem;
+    text-align: center;
+    color:white;
+    margin-left: 30px;
+    }
+
+header .menu {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+header .menu a {
+    color:white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+header .menu a:hover {
+    color: rgb(255, 141, 1);
+}
+
+header nav {
+    background-color:black;
+}
+
+@media (min-width: 480px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    header .menu {
+        flex:1;
+    }
+    .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3px;
+    }
+}
+.button {
+    background-color: rgb(255, 141, 1);
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .button:hover {
+    color: black;
+    background-color:white;
+}
+.product-list img {
+    display: block;
+    width: 100%;
+}
+.product-button {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: black;
+}
+.product-button h2 {
+    color: rgb(255, 141, 1);
+    border: 1px solid rgb(255, 141, 1);
+    padding: 8px 15px;
+}
+.second {
+    margin: 15px;
+}
+footer {
+    background-color: black; 
+    display: grid;
+    margin-top: 10px;
+}
+
+footer ul {
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    
+}
+
+footer a:hover {
+    color: #ffe;
+    background-color: rgb(78, 76, 76);
+}
+
+footer p {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#licence{
+    margin-top: 30px;
+}
