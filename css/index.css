@@ -177,7 +177,7 @@ footer ul {
 footer ul li a {
     color: white;
     text-decoration: none;
-    border: 1px solid white;
+    border: 0.5px solid white;
     padding: 1px;
     
 }
